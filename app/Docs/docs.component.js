@@ -17,9 +17,8 @@ var DocsComponent = (function () {
 DocsComponent = __decorate([
     core_1.Component({
         selector: "docs",
-        template: "\n  <div>\n  <h1>Docs</h1></div>",
-        styles: [""],
-        providers: []
+        template: "\n  <div>\n  <h1>Docs</h1>\n    <docs-box class='flex-center'></docs-box>\n  </div>",
+        styles: ["\n    .flex-center {\n      display: flex;\n      justify-content: center;\n    }"],
     }),
     __metadata("design:paramtypes", [])
 ], DocsComponent);

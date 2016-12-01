@@ -6,6 +6,7 @@ import { DocsComponent } from './Docs/docs.component';
 import { DemoComponent } from './Demo/demo.component';
 import { NotFoundComponent } from './PageNotFound/notfound.component';
 import { RouterModule, Routes } from '@angular/router';
+import { DocsBox } from './Docs/docs-box.component'
 const appRoutes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'docs', component: DocsComponent },
@@ -17,7 +18,7 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  declarations: [ AppComponent, IndexComponent, DocsComponent, DemoComponent, NotFoundComponent ],
+  declarations: [ AppComponent, IndexComponent, DocsComponent, DemoComponent, NotFoundComponent, DocsBox ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
