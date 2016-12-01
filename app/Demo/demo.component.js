@@ -17,7 +17,7 @@ var DemoComponent = (function () {
 DemoComponent = __decorate([
     core_1.Component({
         selector: "demo",
-        template: "<div></div>",
+        template: "\n  <div>\n  <h1>Demo</h1>\n  </div>",
         styles: [""],
         providers: []
     }),

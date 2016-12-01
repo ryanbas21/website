@@ -17,7 +17,7 @@ var demo_component_1 = require("./Demo/demo.component");
 var notfound_component_1 = require("./PageNotFound/notfound.component");
 var router_1 = require("@angular/router");
 var appRoutes = [
-    { path: '/', component: index_component_1.IndexComponent },
+    { path: '', component: index_component_1.IndexComponent },
     { path: 'docs', component: docs_component_1.DocsComponent },
     { path: 'demos', component: demo_component_1.DemoComponent },
     { path: '**', component: notfound_component_1.NotFoundComponent }

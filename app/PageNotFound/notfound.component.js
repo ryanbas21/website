@@ -17,7 +17,7 @@ var NotFoundComponent = (function () {
 NotFoundComponent = __decorate([
     core_1.Component({
         selector: "notfound",
-        template: "<div></div>",
+        template: "\n  <div>\n  <h1>Page Not Found</h1>\n  </div>",
         styles: [""],
         providers: []
     }),

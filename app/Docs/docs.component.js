@@ -17,7 +17,7 @@ var DocsComponent = (function () {
 DocsComponent = __decorate([
     core_1.Component({
         selector: "docs",
-        template: "<div></div>",
+        template: "\n  <div>\n  <h1>Docs</h1></div>",
         styles: [""],
         providers: []
     }),

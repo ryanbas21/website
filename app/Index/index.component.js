@@ -17,7 +17,7 @@ var IndexComponent = (function () {
 IndexComponent = __decorate([
     core_1.Component({
         selector: "index",
-        template: "<div></div>",
+        template: "\n  <div>\n  <h1>Index</h1>\n  </div>",
         styles: [""],
         providers: []
     }),

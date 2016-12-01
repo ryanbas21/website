@@ -7,7 +7,7 @@ import { DemoComponent } from './Demo/demo.component';
 import { NotFoundComponent } from './PageNotFound/notfound.component';
 import { RouterModule, Routes } from '@angular/router';
 const appRoutes: Routes = [
-  { path: '/', component: IndexComponent },
+  { path: '', component: IndexComponent },
   { path: 'docs', component: DocsComponent },
   { path: 'demos', component: DemoComponent },
   { path: '**', component: NotFoundComponent }
