@@ -9,20 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var store_service_1 = require("./app/store.service");
-var DemoComponent = (function () {
-    function DemoComponent() {
+var store_service_1 = require("./store.service");
+var AppComponent2 = (function () {
+    function AppComponent2(storeService) {
+        this.storeService = storeService;
     }
-    return DemoComponent;
+    AppComponent2.prototype.ngOnInit = function () { };
+    return AppComponent2;
 }());
-DemoComponent = __decorate([
+AppComponent2 = __decorate([
     core_1.Component({
-        selector: 'demo',
-        template: "\n  <div>\n  <tic-tac-toe></tic-tac-toe>\n  </div>",
-        styles: [""],
-        providers: [store_service_1.StoreService]
+        selector: 'tic-tac-toe',
+        template: "\n    <board class=\"board\"></board>\n  ",
+        styles: ["\n    .board {\n      margin: auto;\n      display: block;\n      left: 0;\n      right: 0;\n      width: 756px;\n      height: 756px;\n    }\n  "]
     }),
-    __metadata("design:paramtypes", [])
-], DemoComponent);
-exports.DemoComponent = DemoComponent;
-//# sourceMappingURL=demo.component.js.map
+    __metadata("design:paramtypes", [store_service_1.StoreService])
+], AppComponent2);
+exports.AppComponent2 = AppComponent2;
+//# sourceMappingURL=app.component.js.map

@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
-
-@Component({
-  selector: `demo`,
+import { AppComponent2 } from './app/app.component';
+import { StoreService } from './app/store.service';
+@Component ({
+  selector: 'demo',
   template: `
   <div>
-  <h1>Demo</h1>
+  <tic-tac-toe></tic-tac-toe>
   </div>`,
   styles: [``],
-  providers: []
+  providers: [ StoreService ]
 })
-export class DemoComponent {
-
-}
+export class DemoComponent{}
