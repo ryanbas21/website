@@ -9,20 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var IndexComponent = (function () {
-    function IndexComponent() {
+var TitleComponent = (function () {
+    function TitleComponent() {
     }
-    return IndexComponent;
+    return TitleComponent;
 }());
-IndexComponent = __decorate([
+TitleComponent = __decorate([
     core_1.Component({
-        selector: "index",
-        template: "\n  <div>\n  <h1>Index</h1>\n  <index-title></index-title>\n  <index-container class='center' > </index-container>\n  </div>",
-        styles: ["\n    .center {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }"
-        ],
-        providers: []
+        selector: 'index-title',
+        template: "<h1 class='center'>Brain Day State Service</h1>",
+        styles: ["\n    .center {\n      font-family: Arial;\n      color: FFAC37;\n      display: flex;\n      justify-content: center;\n    }"]
     }),
     __metadata("design:paramtypes", [])
-], IndexComponent);
-exports.IndexComponent = IndexComponent;
-//# sourceMappingURL=index.component.js.map
+], TitleComponent);
+exports.TitleComponent = TitleComponent;
+//# sourceMappingURL=title.component.js.map

@@ -17,8 +17,9 @@ var DocsComponent = (function () {
 DocsComponent = __decorate([
     core_1.Component({
         selector: "docs",
-        template: "\n  <div>\n  <h1>Docs</h1>\n    <docs-box class='flex-center'></docs-box>\n  </div>",
-        styles: ["\n    .flex-center {\n      display: flex;\n      justify-content: center;\n    }"],
+        template: "\n  <div class='container'>\n  <h1 class = 'left'>Docs</h1>\n    <docs-box class='flex-center'></docs-box>\n  </div>",
+        styles: ["\n    .container {\n      display: flex;\n      justify-content: center;\n      background-color: #76C8FF;\n    }\n    .flex-center {\n      width: 800px;\n\n    }\n    .left {\n      display: flex;\n      justify-content:  space-evenly;\n      margin-right: 200px;\n    }"
+        ],
     }),
     __metadata("design:paramtypes", [])
 ], DocsComponent);
