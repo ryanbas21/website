@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   <nav>
   <div class="nav-wrapper">
      <a href="#" class="brand-logo">Logo</a>
-     <ul id="nav-mobile" class="right hide-on-med-and-down">
-       <li><a routerLink="/" routerLinkActive="active">Home</a></li>
-       <li><a routerLink="/docs" routerLinkActive="active">Docs</a></li>
-       <li><a routerLink="demos" routerLinkActive="active">Demos</a></li>
-     </ul>
+      <div id="nav-mobile" class="right hide-on-med-and-down">
+       <a routerLink="/" routerLinkActive="active">Home</a>
+       <a routerLink="/docs" routerLinkActive="active">Docs</a>
+       <a routerLink="demos" routerLinkActive="active">Demos</a>
+     </div>
    </div>
   </nav>
   <router-outlet></router-outlet>
